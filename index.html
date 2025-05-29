@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta name="description" content="Tienda de consolas retro, arcades y hardware clásico para gamers nostálgicos. Envíos a todo el país." />
+   <title>El Galpón del Retro Gamer | Consolas y Arcade Clásico</title>
+   <link rel="stylesheet" href="css/retro.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+</head>
+<body>
+   <header>
+      <div class="logo">
+         <img src="img/ensigna.png" alt="Logo Galpón" />
+      </div>
+
+      <h1>El Galpón del Retro Gamer</h1>
+
+      <nav aria-label="Navegación principal">
+         <a href="#gaming-retro">Gaming Retro</a>
+         <a href="#consolas-retro">Consolas Retro</a>
+         <a href="#hardware-pc-retro">Hardware PC Retro</a>
+      </nav>
+
+      <div class="carrito-float">
+         <div class="carrito-icono">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="carrito-contador">0</span>
+         </div>
+         <div class="carrito-dropdown hidden">
+            <ul class="carrito-items"></ul>
+            <p>Total: $<span class="carrito-total">0</span> ARS</p>
+            <button id="vaciar-carrito">Vaciar carrito</button>
+         </div>
+      </div>
+   </header>
+
+   <div class="container" role="main">
+      <section id="gaming-retro">
+         <h2>Gaming Retro</h2>
+         <p>Explora el fascinante mundo de los videojuegos clásicos. Descubre historias, análisis y curiosidades de los juegos que marcaron una época.</p>
+      </section>
+
+      <section id="consolas-retro">
+         <h2>Consolas Retro</h2>
+         <p>Sumérgete en la nostalgia de los juegos que definieron generaciones gracias a nuestros productos.</p>
+
+         <h3>Productos Disponibles:</h3>
+         <ul>
+            <li>
+               <img src="../Retro/img/retroconsola.jpg" alt="Imagen de Retro consola" />
+               <h4>Retro Consola 2 Jugadores</h4>
+               <p>Precio: $ 275.000 ARS</p>
+               <button class="add-to-cart boton-retro" data-name="Retro Consola" data-price="275000">Agregar al carrito</button>
+            </li>
+            <li>
+               <img src="../Retro/img/americano.jpg" alt="Arcade Americano" />
+               <h4>Arcade Americano</h4>
+               <p>Precio: $ 850.000 ARS</p>
+               <button class="add-to-cart boton-retro" data-name="Arcade Americano" data-price="850000">Agregar al carrito</button>
+            </li>
+            <li>
+               <img src="../Retro/img/Stick.jpg" alt="Imagen de Retro Stick" />
+               <h4>Consola Retro Stick</h4>
+               <p>Precio: $ 70.000 ARS</p>
+               <button class="add-to-cart boton-retro" data-name="Consola Retro Stick" data-price="70000">Agregar al carrito</button>
+            </li>
+            <li>
+               <img src="../Retro/img/Retroconsolaconpie.jpg" alt="Imagen de Retro Consola con pedestal" />
+               <h4>Retro Consola con pedestal</h4>
+               <p>Precio: $ 350.000 ARS</p>
+               <button class="add-to-cart boton-retro" data-name="Retro Consola con pedestal" data-price="350000">Agregar al carrito</button>
+            </li>
+         </ul>
+      </section>
+
+      <section id="hardware-pc-retro">
+         <h2>Hardware PC Retro</h2>
+         <p>Un viaje al pasado de los componentes de PC. Tarjetas gráficas, procesadores y periféricos que hicieron historia en el gaming de ordenador.</p>
+      </section>
+
+      <section class="contact-form">
+         <h2>¡Contáctanos!</h2>
+
+         <form action="https://formspree.io/f/xvgaokjb" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required />
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" />
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+
+            <button type="submit">Enviar</button>
+         </form>
+      </section>
+   </div>
+
+   <footer>
+      <iframe
+         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13133.452607436828!2d-58.3884707!3d-34.6037347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334af17ff1e9b%3A0x2089a3a77e9a62b7!2sObelisco!5e0!3m2!1ses-419!2sar!4v1716902420174!5m2!1ses-419!2sar"
+         allowfullscreen=""
+         loading="lazy"
+         referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <p>@2009 El Galpón del Retro Gamer</p>
+   </footer>
+
+   <a href="https://wa.me/+5491158000298" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+   </a>
+
+   <a href="https://www.instagram.com/defagom" class="instagram-float" target="_blank" rel="noopener noreferrer" aria-label="Visitar Instagram">
+      <i class="fab fa-instagram"></i>
+   </a>
+
+   <script src="js/carrito.js"></script>
+</body>
+</html>
