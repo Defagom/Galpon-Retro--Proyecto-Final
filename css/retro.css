@@ -163,6 +163,10 @@ nav a:hover {
   gap: 20px;
 }
 
+.container h3 {
+  text-align: center;
+}
+
 .container h2 {
   font-size: 18px;
   color: #ff00cc;
