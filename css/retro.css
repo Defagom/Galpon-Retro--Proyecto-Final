@@ -166,6 +166,7 @@ nav a:hover {
 .container h2 {
   font-size: 18px;
   color: #ff00cc;
+  text-align: center;
   margin-top: 40px;
   margin-bottom: 20px;
   text-shadow: 2px 2px #000;
@@ -256,7 +257,8 @@ footer iframe {
 }
 
 .contact-form {
-  max-width: 600px;
+  max-width: 400px;
+  width: 70%;
   margin: 40px auto;
   background-color: rgba(17, 17, 17, 0.8);
   padding: 20px;
