@@ -18,6 +18,11 @@ header {
   padding: 10px 20px;
   background-color: #333;
   color: white;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow:
+    0 0 6px #0ff,
+    0 0 12px #f0f,
+    0 0 18px #ff0;
 }
 
 .logo img {
