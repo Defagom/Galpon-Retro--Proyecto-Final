@@ -124,10 +124,15 @@ header h1 {
   margin: 0 auto;
   font-size: 1.8em;
   font-family: 'Press Start 2P', cursive;
-  text-shadow: 2px 2px #e74c3c;
-  color: #fff;
   text-align: center;
   flex-grow: 1;
+  position: relative;
+  color: #fff;
+  text-shadow:
+    2px 2px #e74c3c,
+    0 0 5px #ff00cc,
+    0 0 10px #ff00cc,
+    0 0 20px #ff00cc;
 }
 
 nav {
